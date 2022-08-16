@@ -5,9 +5,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const password = passwordField.value;
 
     if (Email == 'jabed@gmail.com' && password == '62732') {
-        console.log('congratulations!!!!');
+        window.location.href = 'bank.html';
     }
     else {
-        console.log('Please enter your valid informations')
+        alert('You entered wrong information.Please enter your valid information')
     }
-}
+})
